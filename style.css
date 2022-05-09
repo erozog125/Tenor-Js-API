@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > h1 {
+  font-family: 'Water Brush', cursive;
+  color: #ff4500;
+  font-size: 4rem;
+  text-shadow: 0 0 15px #725757;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#input-gif {
+  width: 25rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 15px;  
+  margin: 1rem;
+  color: red;
+}
+
+#input-gif::placeholder {
+  padding: 0.5rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-gif {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 1rem;
+  border: groove 2px #ff7300;
+}
+
+footer {
+  width: 100vw;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+footer > p {
+  font-size: 2rem;
+  font-family: 'Water Brush', cursive;
+  color: #0861cd;
+} 
