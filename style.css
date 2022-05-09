@@ -47,7 +47,7 @@ header > h1 {
 
 #main-container {
   width: 100%;
-  height: 70%;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -64,12 +64,14 @@ header > h1 {
 
 footer {
   width: 100vw;
-  height: 15%;
+  height: 5rem;
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 0;
 }
 
-footer > p {
+footer > p {  
   font-size: 2rem;
   font-family: 'Water Brush', cursive;
   color: #0861cd;
